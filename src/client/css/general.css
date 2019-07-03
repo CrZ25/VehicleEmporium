@@ -1,0 +1,303 @@
+body {
+  background-color: #121212;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #DEE7E7;
+  /* overflow: hidden; */
+}
+
+/* p {
+  margin-bottom: 0.5em;
+} */
+
+header, footer {
+  /* margin: 0em 0em 0em 0em; */
+  /* outline-offset: 0; */
+  background-color: #353535;
+  /* width: 100%; */
+  height: 7em;
+  padding: 0.5em;
+  /* padding-bottom: 0.75em; */
+}
+
+footer {
+  margin-top: auto;
+  height: 8em;
+}
+
+/* .flexHeaderTop img {
+  height: 100%;
+} */
+.email   {
+  text-decoration: none;
+  color: grey;
+}
+.footerList {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding-left: 2em;
+  text-align: center;
+}
+
+.columnFooters {
+  display: inline-flex;
+  float: left;
+  width: 33%;
+}
+
+#socials {
+  display: inline-block;
+}
+
+.copyright {
+  padding-top: 2em;
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  font-size: 0.7em;
+  text-align: center;
+  bottom: 0;
+}
+
+.footerLogo {
+  width:50%;
+  float: right;
+}
+.columnContainer {
+  display: flex;
+  flex-flow: row;
+}
+
+/* .columnContainer * {
+  flex: 1 100%;
+} */
+.leftSidebar, .mainView {
+  margin: 2em;
+  padding: 1em;
+  background-color: #353535;
+}
+
+.leftSidebar {
+  order: 1;
+  width: 10em;
+  margin-right: 0;
+}
+
+.mainView {
+  order: 2;
+  flex-grow: 2;
+}
+
+.flexHeaderTop {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 5em;
+  flex-wrap: nowrap;
+}
+
+.flexHeaderBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 2em;
+  flex-wrap: nowrap;
+}
+
+.flexHeaderBottom a {
+  text-decoration: none;
+}
+
+.flexBottomLeft {
+  flex-wrap: nowrap;
+}
+
+.flexBottomRight {
+  justify-content: space-between;
+  /* flex-wrap: nowrap; */
+  /* margin-left: 3em; */
+}
+
+.navHeader {
+  height: 1em;
+}
+
+.headerContainer {
+  height: inherit;
+  margin: auto;
+  width: 95%;
+}
+
+.flexHeaderTop #headerLogo {
+  height: 5em;
+  display: inline-block;
+}
+
+.searchForm {
+  min-width: 30.5em;
+  height: 2.5em;
+  background-color: #FF8800;
+  border: 1px solid #FF8800;
+  margin-left: 5em;
+}
+
+#searchField {
+  width: 25em;
+}
+
+form.searchForm input[type=text] {
+  margin: 0;
+  padding: 0;
+  height: inherit;
+  font-size: 1em;
+  border: none;
+  float: left;
+  background: #FAFAFF;
+  font-weight: bold;
+  padding-left: 1em;
+}
+
+form.searchForm button {
+  background: url("../images/magnifying-glass.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: inherit;
+  width: 5em;
+  float: left;
+  border: none;
+}
+
+.inlineNav {
+  height: inherit;
+}
+
+.inlineNav li {
+  height: inherit;
+  display: inline-block;
+  border-left: 1px solid #DEE7E7;
+  padding-left: 0.5em;
+  padding-right: 0.25em;
+}
+
+.headerRightLinks li {
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 0.25em;
+}
+
+.flexBottomRight a {
+  font-weight: bold;
+  color: #353535;
+  background-color: #FF8800;
+  padding: 0.35em 0.5em 0.35em 0.5em;
+}
+
+.flexBottomRight a:hover {
+  background-color: #D17000;
+}
+
+.sidebarForm div {
+  margin-top: 0.75em;
+}
+
+.sidebarForm div:first-child {
+  margin-top: 0em;
+}
+
+.inlineNav li:first-child {
+  border: none;
+}
+
+.inlineNav a:hover {
+  background-color: #FF8800;
+  color: #353535;
+}
+
+.inlineNav a {
+  font-weight: bold;
+  color: #FF8800;
+  padding: 0.35em 0.5em 0.35em 0.5em;
+}
+
+/************* SELECT STYLING ************/
+
+select {
+  /* margin:40px; */
+  width: 12em;
+  height: 3em;
+  background: #FF8800;
+  color: #353535;
+  font-weight: bold;
+  padding-left: 1em;
+  /* padding: 0.5em 0em 0.5em 2em; */
+}
+
+.quantityCount {
+  width: 4em;
+  height: 2em;
+}
+
+/*************************** FORM STYLING **********************/
+
+fieldset {
+  border: 1px solid #FF8800;
+  border-radius: 0.5em;
+  background-color:  #121212;
+}
+
+legend {
+  font-weight: bold;
+  color: #FF8800;
+  font-size: 1.5em;
+  /* border: 1px solid #FF8800;
+  border-radius: 0.25em; */
+}
+
+label {
+ /* border:1px solid #ccc; */
+ /* padding:10px; */
+ /* margin:0 0 10px; */
+ margin: 0.5em;
+ padding: 0.5em;
+ border-radius: 0.5em;
+ display:block;
+ font-weight: bold;
+}
+
+.sidebarLabel {
+  display: inline;
+}
+
+.sidebarDiv {
+  margin-top: 1em;
+}
+
+checkbox {
+  height: 2em;
+}
+
+.hoverLabel:hover {
+ background-color: #FF8800;
+ color: #353535;
+ cursor:pointer;
+}
+
+/***************** BUTTON STYLING ******************/
+.formatButton {
+  font-weight: bold;
+  text-decoration: none;
+  margin: 1em;
+  display: block;
+  border: 1px solid #FF8800;
+  border-radius: 0.75em;
+  padding: 0.5em;
+  background-color: #FF8800;
+  color: #353535;
+  text-align: center;
+  font-size: 1em;
+}
+
+.formatButton:hover  {
+  opacity: 0.7;
+}
